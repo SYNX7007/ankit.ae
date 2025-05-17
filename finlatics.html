@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Finlatics Experience</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+</head>
+<body>
+  <section class="experience-details">
+    <div class="container">
+      <h1>Finlatics Internship</h1>
+      <p><strong>Duration:</strong> 2 Months</p>
+      <p><strong>Role:</strong> Data Science with Python</p>
+
+      <h2>Project Summary</h2>
+      <p>I worked on analyzing <strong>Online Advertising Performance Data</strong> (Digital Marketing Data) to assess the effectiveness of campaigns, banners, placements, and engagement patterns. The focus was on discovering insights that improve ROI and user targeting strategies.</p>
+
+      <h2>Key Outcomes</h2>
+      <ul>
+        <li>Identified top-performing ad sizes and placements in terms of clicks and conversions.</li>
+        <li>Found clear correlations between ad cost and click-based revenue.</li>
+        <li>Analyzed post-click sales behavior and spotted seasonal fluctuations.</li>
+        <li>Uncovered patterns in user engagement over weekdays vs. weekends.</li>
+        <li>Built actionable insights for improving CPC and ROI across campaigns.</li>
+      </ul>
+
+      <h2>Questions Explored</h2>
+      <p>I answered 20+ key marketing questions such as:</p>
+      <ul>
+        <li>What trends exist in engagement, clicks, and conversions over time?</li>
+        <li>Which banner sizes or placements lead to better ROI?</li>
+        <li>Are weekday campaigns more effective than weekend ones?</li>
+        <li>Which campaigns drive the most revenue per click?</li>
+        <li>Are there anomalies in ad spend vs performance?</li>
+      </ul>
+
+      <h2>Certificates & Letter of Recommendation</h2>
+
+    <div class="pdf-gallery">
+    <div class="pdf-thumb" onclick="openPDF('finlatics_certificate.pdf')">
+        <p>📄 Internship Certificate</p>
+    </div>
+    <div class="pdf-thumb" onclick="openPDF('finlatics_LOR.pdf')">
+        <p>📄 Letter of Recommendation</p>
+    </div>
+    </div>
+
+    <!-- Modal Viewer -->
+    <div id="pdfModal" class="pdf-modal" onclick="closePDF()">
+    <div class="pdf-content" onclick="event.stopPropagation()">
+        <iframe id="pdfViewer" src="" frameborder="0"></iframe>
+        <span class="close-btn" onclick="closePDF()">×</span>
+    </div>
+    </div>
+
+
+      <p>🔗 <a href="index.html" style="color:#00bcd4; text-decoration: underline;">Back to Home</a></p>
+    </div>
+  </section>
+  <footer class="site-footer">
+  <div class="footer-content">
+
+    <div class="footer-column">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="index.html"><i class="fas fa-user"></i> About Me</a></li>
+        <li><a href="roadmap.html"><i class="fas fa-road"></i> 10-Year Roadmap</a></li>
+        <li><a href="#education"><i class="fas fa-graduation-cap"></i> Education</a></li>
+        <li><a href="#experience"><i class="fas fa-briefcase"></i> Experience</a></li>
+        <li><a href="#certificates"><i class="fas fa-certificate"></i> Certifications</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-column">
+      <h3>Contact Info</h3>
+      <ul>
+        <li><i class="fas fa-envelope"></i> <a href="mailto:sankarankit@gmail.com">sankarankit@gmail.com</a></li>
+        <li><i class="fas fa-phone"></i> +971 56 2015834</li>
+        <li><i class="fas fa-map-marker-alt"></i> Dubai, UAE</li>
+      </ul>
+    </div>
+
+    
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2025 Ankit Sankar. All rights reserved.</p>
+  </div>
+</footer>
+<button id="topBtn" title="Go to top">↑</button>
+<script src="script.js"></script>
+</body>
+</html>

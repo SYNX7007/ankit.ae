@@ -1,0 +1,152 @@
+/* Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #1c1c1c;
+  color: #e0e0e0;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background: #111;
+  padding: 2rem;
+  text-align: center;
+}
+header h1 {
+  color: #00bcd4;
+  font-size: 2rem;
+}
+nav ul {
+  list-style: none;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+nav ul li a {
+  color: #ccc;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+nav ul li a:hover {
+  color: #00bcd4;
+}
+
+/* Roadmap Section */
+.roadmap {
+  max-width: 800px;
+  margin: 4rem auto;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.roadmap-step {
+  background: #2a2a2a;
+  padding: 2rem;
+  border-radius: 12px;
+  width: 100%;
+  border-left: 5px solid #00bcd4;
+  box-shadow: 0 0 20px rgba(0, 188, 212, 0.1);
+  transition: transform 0.3s ease;
+}
+.roadmap-step:hover {
+  transform: translateX(10px);
+}
+.roadmap-step h3 {
+  color: #00bcd4;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.roadmap-step ul {
+  padding-left: 1.5rem;
+}
+.roadmap-step ul li {
+  margin-bottom: 0.5rem;
+  color: #ccc;
+}
+.roadmap-arrow {
+  font-size: 2rem;
+  margin: 2rem 0;
+  color: #00bcd4;
+}
+
+/*Footer*/
+
+.site-footer {
+  background-color: #111;
+  color: #ccc;
+  padding: 3rem 2rem 1rem;
+  margin-top: 4rem;
+  font-family: 'Montserrat', sans-serif;
+}
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: 0 auto;
+  gap: 2rem;
+}
+.footer-column h3 {
+  color: #00bcd4;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+.footer-column ul li {
+  margin-bottom: 0.6rem;
+  font-size: 0.95rem;
+}
+.footer-column ul li i {
+  margin-right: 0.5rem;
+  color: #ff4c4c;
+}
+.footer-column a {
+  color: #ccc;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.footer-column a:hover {
+  color: #00bcd4;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 2rem;
+  border-top: 1px solid #2a2a2a;
+  padding-top: 1rem;
+  font-size: 0.9rem;
+  color: #777;
+}
+
+
+/* Scroll to Top Button */
+#topBtn {
+  display: none;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #00bcd4;
+  color: #111;
+  border: none;
+  padding: 0.7rem 1rem;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  cursor: pointer;
+  z-index: 999;
+  box-shadow: 0 4px 10px rgba(0, 188, 212, 0.4);
+  transition: background 0.3s ease;
+}
+#topBtn:hover {
+  background-color: #0097a7;
+}

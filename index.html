@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ankit Sankar | Aspiring Data Engineer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+</head>
+<body>
+
+  <!--Sticky Navigation Header -->
+  <nav class="main-nav">
+    <div class="logo">Ankit Sankar</div>
+    <ul class="nav-links">
+      <li><a href="#about">About Me</a></li>
+      <li><a href="roadmap.html" target="_blank">10-Year Roadmap</a></li>
+      <li><a href="https://linkedin.com/in/ankit-sankar" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+      <li><a href="https://github.com/SYNX7007" target="_blank"><i class="fab fa-github"></i></a></li>
+    </ul>
+  </nav>
+
+  <!--Hero Section -->
+  <header class="hero full-height" id="about">
+    <div class="hero-grid" data-aos="fade-up">
+
+      <!-- Left Stats -->
+      <div class="left-panel">
+        <div class="stat"><strong class="counter" data-target="3">0</strong>+<span>Projects</span></div>
+        <div class="stat"><strong class="counter" data-target="1">0</strong><span>Hackathon Awards</span></div>
+        <div class="stat"><strong class="counter" data-target="6">0</strong><span>Certifications</span></div>
+
+      </div>
+
+      <!-- Center Profile -->
+      <div class="center-panel">
+        <img src="img/profile.jpg" alt="Ankit Sankar" class="profile-img" />
+        <h1>Hi, I am <span>Ankit Sankar</span><br />an Aspiring Data Engineer</h1>
+      </div>
+
+      <!-- Right Bio -->
+      <div class="right-panel">
+        <div class="bio">
+          <h3>Biography :</h3>
+          <p>I’m a data engineer in the making — passionate about extracting detailed insights, and solving real-world problems with code.</p>
+        </div>
+        <div class="contact">
+          <h3>Contact :</h3>
+          <p>Email: <a href="mailto:sankarankit@gmail.com">sankarankit@gmail.com</a><br/>
+          Phone: +971 56 2015834</p>
+        </div>
+      </div>
+
+    </div>
+  </header>
+  <!-- Skills Stats Section -->
+<section class="stats-section" id="skills">
+  <div class="stats-container">
+
+    <a href="projects.html" class="stat-card" data-aos="fade-up">
+      <i class="fas fa-pencil-ruler"></i>
+      <h3>Projects</h3>
+      <p>3+ Includes Data analysis, Ai & ML</p>
+    </a>
+
+    <a href="#certificates" class="stat-card" data-aos="fade-up" data-aos-delay="200">
+      <i class="fas fa-lightbulb"></i>
+      <h3>Certifications</h3>
+      <p>6</p>
+    </a>
+
+    <a href="#education" class="stat-card" data-aos="fade-up" data-aos-delay="300">
+      <i class="fas fa-graduation-cap"></i>
+      <h3>Education</h3>
+      <p>Currently studying B.Tech in CSE with 8.4 CGPA</p>
+    </a>
+
+    <a href="extra.html" class="stat-card" data-aos="fade-up" data-aos-delay="100">
+      <i class="fas fa-medal"></i>
+      <h3>Extra Curricular Awards</h3>
+      <p>2</p>
+    </a>
+
+  </div>
+</section>
+
+<!-- Education Section -->
+<!-- Education Timeline Section -->
+<section class="education-section" id="education">
+  <h2 class="section-title">Education</h2>
+  <div class="timeline">
+
+    <div class="timeline-item" data-aos="fade-up" data-aos-delay="0">
+      <div class="timeline-dot"></div>
+      <div class="timeline-content">
+        <h3>Grade 10</h3>
+        <p>Our Own High School</p>
+      </div>
+    </div>
+
+    <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+      <div class="timeline-dot"></div>
+      <div class="timeline-content">
+        <h3>Grade 12</h3>
+        <p>GEMS New Millennium School</p>
+      </div>
+    </div>
+
+    <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+      <div class="timeline-dot"></div>
+      <div class="timeline-content">
+        <h3>B.Tech - Computer Science</h3>
+        <p>VIT Bhopal University</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Experience Section -->
+<section class="experience-section" id="experience">
+  <h2 class="section-title">Experience</h2>
+  <div class="experience-card-container" data-aos="fade-up">
+    <a href="finlatics.html" class="experience-card">
+      <div class="card-content">
+        <h3>Finlatics Internship</h3>
+        <p><strong>Role:</strong> Data Science with Python</p>
+        <p><strong>Duration:</strong> 2 Months</p>
+        <p class="view-more">View Project Details →</p>
+      </div>
+    </a>
+  </div>
+</section>
+
+<section id="certificates" class="certificates-section" >
+  <h2>My Certifications</h2>
+
+  <div class="certificates-grid">
+
+    <div class="certificate-card" onclick="openPDF('certificates/upenn_data_analysis.pdf')"data-aos="fade-up" data-aos-delay="0">
+      <h3>Data Analysis using Python</h3>
+      <p>University of Pennsylvania</p>
+      <ul class="course-outcomes">
+        <li>Explored NumPy, Pandas, and visualization techniques</li>
+        <li>Cleaned, analyzed, and visualized real-world datasets</li>
+        <li>Applied statistical insights using Python tools</li>
+        <p class="view-more">View Certificate Details →</p>
+      </ul>
+    </div>
+
+    <div class="certificate-card" onclick="openPDF('certificates/ibm_datasci101.pdf')"data-aos="fade-up" data-aos-delay="100">
+      <h3>Data Science 101</h3>
+      <p>IBM</p>
+      <ul class="course-outcomes">
+        <li>Learned the full data science lifecycle and key roles</li>
+        <li>Identified key skills for data-related career paths</li>
+        <p class="view-more">View Certificate Details →</p>
+      </ul>
+    </div>
+
+    <div class="certificate-card" onclick="openPDF('certificates/ibm_python101.pdf')"data-aos="fade-up" data-aos-delay="200">
+      <h3>Python 101 for Data Science</h3>
+      <p>IBM</p>
+      <ul class="course-outcomes">
+        <li>Mastered Python basics: loops, data types, and functions</li>
+        <li>Performed beginner-level data analysis using Python</li>
+        <p class="view-more">View Certificate Details →</p>
+      </ul>
+    </div>
+
+    <div class="certificate-card" onclick="openPDF('certificates/oracle_java_foundations.pdf')"data-aos="fade-up" data-aos-delay="300">
+      <h3>Java Certified Foundations Associate</h3>
+      <p>Oracle</p>
+      <ul class="course-outcomes">
+        <li>Grasped Java syntax, OOP, and core programming logic</li>
+        <li>Built basic Java programs and practiced standard algorithms</li>
+        <p class="view-more">View Certificate Details →</p>
+      </ul>
+    </div>
+
+    <div class="certificate-card" onclick="openPDF('certificates/Global_certificate.pdf')"data-aos="fade-up" data-aos-delay="400">
+      <h3> Database Developer on Oracle Cloud</h3>
+      <p>Oracle</p>
+      <ul class="course-outcomes">
+        <li>Gained hands-on experience in building, managing, and optimizing databases using Oracle Autonomous Database and SQL Developer on Oracle Cloud Infrastructure (OCI).</li>
+        <li>Designed and implemented cloud-native database solutions with a focus on performance tuning, security, and automation in a scalable cloud environment.</li>
+        <p class="view-more">View Certificate Details →</p>
+      </ul>
+    </div>
+
+    <div class="certificate-card" onclick="openPDF('certificates/jhu_webdev.pdf')"data-aos="fade-up" data-aos-delay="500">
+      <h3>HTML, CSS & JavaScript for Web Developers</h3>
+      <p>Johns Hopkins University</p>
+      <ul class="course-outcomes">
+        <li>Built responsive websites using HTML5, CSS3, JavaScript</li>
+        <li>Created dynamic content and mobile-first layouts</li>
+        <p class="view-more">View Certificate Details →</p>
+      </ul>
+    </div>
+
+
+  </div>
+</section>
+
+<!-- PDF Modal Viewer -->
+<div id="pdfModal" class="pdf-modal" onclick="closePDF()">
+  <div class="pdf-content" onclick="event.stopPropagation()">
+    <iframe id="pdfViewer" src="" frameborder="0"></iframe>
+    <span class="close-btn" onclick="closePDF()">×</span>
+  </div>
+</div>
+
+<!--Skills section-->
+<section id="skills" class="immersive-skills-section">
+  <h2>My Skills</h2>
+  <div class="skills-grid">
+
+    <!-- Languages -->
+    <div class="skill-card" data-aos="fade-up">
+      <div class="skill-bg" style="background-image: url('img/code.png');"></div>
+      <div class="skill-content">
+        <h3>Languages</h3>
+        <ul>
+          <li>Python</li>
+          <li>R</li>
+          <li>Java</li>
+          <li>C#</li>
+          <li>SQL</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Tools -->
+    <div class="skill-card" data-aos="fade-up" data-aos-delay="100">
+      <div class="skill-bg" style="background-image: url('img/tools.png');"></div>
+      <div class="skill-content">
+        <h3>Tools</h3>
+        <ul>
+          <li>Git</li>
+          <li>Tableau</li>
+          <li>Power BI</li>
+          <li>Excel</li>
+          <li>PowerPoint</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Engines -->
+    <div class="skill-card" data-aos="fade-up" data-aos-delay="200">
+      <div class="skill-bg" style="background-image: url('img/engine.png');"></div>
+      <div class="skill-content">
+        <h3>Game Engines</h3>
+        <ul>
+          <li>Unreal Engine</li>
+          <li>Unity Engine</li>
+          <li>Godot Engine</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="footer-content">
+
+    <div class="footer-column">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="index.html"><i class="fas fa-user"></i> About Me</a></li>
+        <li><a href="roadmap.html"><i class="fas fa-road"></i> 10-Year Roadmap</a></li>
+        <li><a href="#education"><i class="fas fa-graduation-cap"></i> Education</a></li>
+        <li><a href="#experience"><i class="fas fa-briefcase"></i> Experience</a></li>
+        <li><a href="#certificates"><i class="fas fa-certificate"></i> Certifications</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-column">
+      <h3>Contact Info</h3>
+      <ul>
+        <li><i class="fas fa-envelope"></i> <a href="mailto:sankarankit@gmail.com">sankarankit@gmail.com</a></li>
+        <li><i class="fas fa-phone"></i> +971 56 2015834</li>
+        <li><i class="fas fa-map-marker-alt"></i> Dubai, UAE</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2025 Ankit Sankar. All rights reserved.</p>
+  </div>
+</footer>
+
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="script.js"></script>
+  <button id="topBtn" title="Go to top">↑</button>
+  <script>AOS.init();</script>
+  
+</body>
+</html>
